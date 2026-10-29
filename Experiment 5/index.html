@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+        <h1 align="center">Student Registration Form</h1>
+        <fieldset>
+        <form action="#" method="post" align="left">
+            <!-- Name -->
+            <label for="Full name">FullName:</label>
+            <input type="text" id="Full name" name="Full name" placeholder="Enter your full name" required><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Password-->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+
+        <!-- Gender -->
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <!-- Course -->
+        <label for="course">Course:</label>
+        <select id="course" name="course" required>
+            <option value="">Select Course</option>
+            <option value="btech">B.Tech</option>
+            <option value="mtech">M.Tech</option>
+            <option value="bca">B.CA</option>
+            <option value="mca">M.CA</option>
+        </select><br><br>
+
+        <!-- Address(Text Area) -->
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="40" placeholder="Enter your address" required></textarea><br><br>
+
+        <!-- Register Button -->
+        <input type="submit" value="Register">
+
+        <!-- Clear Button -->
+        <input type="reset" value="Clear">
+    </form>
+    </fieldset>
+    <p align="center">&copy; 2026 Student Registration Portal</p>
+</body>
+</html>
